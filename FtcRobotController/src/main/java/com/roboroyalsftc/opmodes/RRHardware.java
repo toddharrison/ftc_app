@@ -1,4 +1,4 @@
-package com.qualcomm.ftcrobotcontroller.opmodes.roboroyals;
+package com.roboroyalsftc.opmodes;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;

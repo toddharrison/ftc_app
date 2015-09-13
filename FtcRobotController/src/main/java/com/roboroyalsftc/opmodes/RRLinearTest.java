@@ -1,7 +1,6 @@
-package com.qualcomm.ftcrobotcontroller.opmodes.roboroyals;
+package com.roboroyalsftc.opmodes;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.hardware.DcMotor;
 
 /**
  * Created by todd on 9/12/15.

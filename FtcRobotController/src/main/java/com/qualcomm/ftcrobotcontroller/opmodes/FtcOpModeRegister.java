@@ -31,8 +31,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 package com.qualcomm.ftcrobotcontroller.opmodes;
 
-import com.qualcomm.ftcrobotcontroller.opmodes.roboroyals.RRLinearTest;
-import com.qualcomm.ftcrobotcontroller.opmodes.roboroyals.RRTest;
+import com.roboroyalsftc.opmodes.RRLinearTest;
+import com.roboroyalsftc.opmodes.RRTest;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
 
