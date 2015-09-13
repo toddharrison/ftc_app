@@ -31,6 +31,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 package com.qualcomm.ftcrobotcontroller.opmodes;
 
+import com.qualcomm.ftcrobotcontroller.opmodes.roboroyals.RRLinearTest;
+import com.qualcomm.ftcrobotcontroller.opmodes.roboroyals.RRTest;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
 
@@ -69,7 +71,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     /*
      * The NullOp op mode
      */
-    manager.register("NullOp", NullOp.class);
+    //manager.register("NullOp", NullOp.class);
 
 
     /*
@@ -79,9 +81,9 @@ public class FtcOpModeRegister implements OpModeRegister {
      *  - K9Line uses a legacy LEGO NXT light sensor to follow a white line.
      */
 
-    manager.register("K9TeleOp", K9TeleOp.class);
-    manager.register("K9IrSeeker", K9IrSeeker.class);
-    manager.register("K9Line", K9Line.class);
+    //manager.register("K9TeleOp", K9TeleOp.class);
+    //manager.register("K9IrSeeker", K9IrSeeker.class);
+    //manager.register("K9Line", K9Line.class);
 
     /*
      * The following example op modes are designed to work with a pushbot-style robot.
@@ -92,11 +94,15 @@ public class FtcOpModeRegister implements OpModeRegister {
      *  - PushBotSquare uses the LinearOpMOde class and shows how to drive in a square pattern autonomously.
      */
 
-    manager.register("PushBotManual", PushBotManual.class);
-    manager.register("PushBotAuto", PushBotAuto.class);
-    manager.register("PushBotDriveTouch", PushBotDriveTouch.class);
-    manager.register("PushBotIrSeek", PushBotIrSeek.class);
-    manager.register("PushBotSquare", PushBotSquare.class);
+    //manager.register("PushBotManual", PushBotManual.class);
+    //manager.register("PushBotAuto", PushBotAuto.class);
+    //manager.register("PushBotDriveTouch", PushBotDriveTouch.class);
+    //manager.register("PushBotIrSeek", PushBotIrSeek.class);
+    //manager.register("PushBotSquare", PushBotSquare.class);
+
+    // TODO Place new OpModes here
+    manager.register("RoboRoyalsLinear", RRLinearTest.class);
+    manager.register("RoboRoyals", RRTest.class);
 
   }
 }
